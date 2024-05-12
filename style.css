@@ -1,0 +1,80 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+  }
+  /*
+    2. Remove default margin
+  */
+  * {
+    margin: 0;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+
+nav {
+    text-align: center;
+    background-color: rgba(0, 0, 0);
+    height: auto;
+    padding: 20px;
+    color: rgb(255, 254, 253)
+}
+
+.background-main{ 
+  text-align: center;
+}
+
+.background-main img{
+  width: 25vw;
+  height: 50vh;
+  object-fit: cover;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.article{
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  line-height: 1.4;
+  gap: 200px;
+  margin-top: 50px;
+}
+
+.left-article{
+  width: 25%;
+  text-align: justify;
+}
+
+.article h2{
+  text-align: center;
+}
+
+.left-article p {
+  margin-top: 10px;
+  font-size: 200;
+
+}
+
+.right-article{
+  width: 25%;
+  text-align: justify;
+}
+
+.right-article p {
+  margin-top: 10px;
+  font-size: 200;
+
+}
+
+footer{
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+   bottom: 0;
+   height: 50px;
+   margin-top: 20px;
+   text-align: center;
+}
+
+
